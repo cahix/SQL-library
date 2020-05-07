@@ -1,0 +1,22 @@
+
+input[type=submit] {
+  padding:5px 15px;
+  background:0 none;
+  color: #0275d8  ;
+  border:0 none;
+  cursor:pointer;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+  color: #025aa5;
+  text-decoration: underline;
+  text-underline-color: #025aa5;
+}
+
+.disabled {
+  pointer-events: none;
+  cursor: default;
+  color: #A9A9A9;
+}
